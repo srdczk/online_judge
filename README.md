@@ -8,6 +8,8 @@
 
 [1136 A Delayed Palindrome](https://github.com/srdczk/PAT/blob/master/A1136.cc)
 
+[1144 The Missing Number](https://github.com/srdczk/PAT/blob/master/A1144.cc)
+
 [1152 Google Recruitment](https://github.com/srdczk/PAT/blob/master/A1152.cc)
 
 [1154 Vertex Coloring](https://github.com/srdczk/PAT/blob/master/A1154.cc)
