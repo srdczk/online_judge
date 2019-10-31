@@ -5,3 +5,5 @@
 [1087 All Roads Lead to Rome](https://github.com/srdczk/PAT/blob/master/A1087.cc)
 
 [1124 Raffle for Weibo Followers](https://github.com/srdczk/PAT/blob/master/A1124.cc)
+
+[1152 Google Recruitment](https://github.com/srdczk/PAT/blob/master/A1152.cc)
