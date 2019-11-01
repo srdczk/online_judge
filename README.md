@@ -14,6 +14,8 @@
 
 [1124 Raffle for Weibo Followers](https://github.com/srdczk/PAT/blob/master/A1124.cc)
 
+[1126 Eulerian Path](https://github.com/srdczk/PAT/blob/master/A1126.cc)
+
 [1131 Subway Map](https://github.com/srdczk/PAT/blob/master/A1131.cc)
 
 [1136 A Delayed Palindrome](https://github.com/srdczk/PAT/blob/master/A1136.cc)
