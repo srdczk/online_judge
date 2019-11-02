@@ -4,6 +4,8 @@
 
 [1022 Digital Library](https://github.com/srdczk/PAT/blob/master/A1022.cc)
 
+[1025 PAT Ranking](https://github.com/srdczk/PAT/blob/master/A1025.cc)
+
 [1028 List Sorting](https://github.com/srdczk/PAT/blob/master/A1028.cc)
 
 [1072 Gas Station](https://github.com/srdczk/PAT/blob/master/A1072.cc)
