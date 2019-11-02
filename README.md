@@ -16,6 +16,8 @@
 
 [1126 Eulerian Path](https://github.com/srdczk/PAT/blob/master/A1126.cc)
 
+[1028 List Sorting](https://github.com/srdczk/PAT/blob/master/A1128.cc)
+
 [1131 Subway Map](https://github.com/srdczk/PAT/blob/master/A1131.cc)
 
 [1136 A Delayed Palindrome](https://github.com/srdczk/PAT/blob/master/A1136.cc)
