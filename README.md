@@ -2,6 +2,10 @@
 
 [1018 Public Bike Management](https://github.com/srdczk/PAT/blob/master/A1018.cc)
 
+[1022 Digital Library](https://github.com/srdczk/PAT/blob/master/A1022.cc)
+
+[1028 List Sorting](https://github.com/srdczk/PAT/blob/master/A1028.cc)
+
 [1072 Gas Station](https://github.com/srdczk/PAT/blob/master/A1072.cc)
 
 [1087 All Roads Lead to Rome](https://github.com/srdczk/PAT/blob/master/A1087.cc)
@@ -15,8 +19,6 @@
 [1124 Raffle for Weibo Followers](https://github.com/srdczk/PAT/blob/master/A1124.cc)
 
 [1126 Eulerian Path](https://github.com/srdczk/PAT/blob/master/A1126.cc)
-
-[1028 List Sorting](https://github.com/srdczk/PAT/blob/master/A1128.cc)
 
 [1131 Subway Map](https://github.com/srdczk/PAT/blob/master/A1131.cc)
 
