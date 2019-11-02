@@ -16,6 +16,8 @@
 
 [1072 Gas Station](https://github.com/srdczk/PAT/blob/master/A1072.cc)
 
+[1081 Rational Sum](https://github.com/srdczk/PAT/blob/master/A1081.cc)
+
 [1087 All Roads Lead to Rome](https://github.com/srdczk/PAT/blob/master/A1087.cc)
 
 [1100 Mars Numbers](https://github.com/srdczk/PAT/blob/master/A1100.cc)
