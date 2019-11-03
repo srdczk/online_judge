@@ -30,6 +30,8 @@
 
 [1111 Online Map](https://github.com/srdczk/PAT/blob/master/A1111.cc)
 
+[1118 Birds in Forest](https://github.com/srdczk/PAT/blob/master/A1118.cc)
+
 [1124 Raffle for Weibo Followers](https://github.com/srdczk/PAT/blob/master/A1124.cc)
 
 [1126 Eulerian Path](https://github.com/srdczk/PAT/blob/master/A1126.cc)
