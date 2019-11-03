@@ -44,6 +44,8 @@
 
 [1144 The Missing Number](https://github.com/srdczk/PAT/blob/master/A1144.cc)
 
+[1148 Werewolf - Simple Version](https://github.com/srdczk/PAT/blob/master/A1148.cc)
+
 [1150 Travelling Salesman Problem](https://github.com/srdczk/PAT/blob/master/A1150.cc)
 
 [1152 Google Recruitment](https://github.com/srdczk/PAT/blob/master/A1152.cc)
