@@ -32,6 +32,8 @@
 
 [1111 Online Map](https://github.com/srdczk/PAT/blob/master/A1111.cc)
 
+[1117 Eddington Number](https://github.com/srdczk/PAT/blob/master/A1117.cc)
+
 [1118 Birds in Forest](https://github.com/srdczk/PAT/blob/master/A1118.cc)
 
 [1124 Raffle for Weibo Followers](https://github.com/srdczk/PAT/blob/master/A1124.cc)
