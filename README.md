@@ -14,6 +14,8 @@
 
 [1039 Course List for Student](https://github.com/srdczk/PAT/blob/master/A1039.cc)
 
+[1047 Student List for Course](https://github.com/srdczk/PAT/blob/master/A1047.cc)
+
 [1059 Prime Factors](https://github.com/srdczk/PAT/blob/master/A1059.cc)
 
 [1061 Dating](https://github.com/srdczk/PAT/blob/master/A1061.cc)
@@ -36,7 +38,11 @@
 
 [1100 Mars Numbers](https://github.com/srdczk/PAT/blob/master/A1100.cc)
 
+[1101 Quick Sort](https://github.com/srdczk/PAT/blob/master/A1101.cc)
+
 [1105 Spiral Matrix](https://github.com/srdczk/PAT/blob/master/A1105.cc)
+
+[1108 Finding Average](https://github.com/srdczk/PAT/blob/master/A1108.cc)
 
 [1111 Online Map](https://github.com/srdczk/PAT/blob/master/A1111.cc)
 
