@@ -28,6 +28,8 @@
 
 [1087 All Roads Lead to Rome](https://github.com/srdczk/PAT/blob/master/A1087.cc)
 
+[1088 Rational Arithmetic](https://github.com/srdczk/PAT/blob/master/A1088.cc)
+
 [1090 Highest Price in Supply Chain](https://github.com/srdczk/PAT/blob/master/A1090.cc)
 
 [1096 Consecutive Factors](https://github.com/srdczk/PAT/blob/master/A1096.cc)
