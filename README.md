@@ -26,6 +26,8 @@
 
 [1087 All Roads Lead to Rome](https://github.com/srdczk/PAT/blob/master/A1087.cc)
 
+[1090 Highest Price in Supply Chain](https://github.com/srdczk/PAT/blob/master/A1090.cc)
+
 [1096 Consecutive Factors](https://github.com/srdczk/PAT/blob/master/A1096.cc)
 
 [1100 Mars Numbers](https://github.com/srdczk/PAT/blob/master/A1100.cc)
