@@ -12,6 +12,8 @@
 
 [1035 Password](https://github.com/srdczk/PAT/blob/master/A1035.cc)
 
+[1039 Course List for Student](https://github.com/srdczk/PAT/blob/master/A1039.cc)
+
 [1059 Prime Factors](https://github.com/srdczk/PAT/blob/master/A1059.cc)
 
 [1061 Dating](https://github.com/srdczk/PAT/blob/master/A1061.cc)
