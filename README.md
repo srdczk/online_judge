@@ -42,6 +42,8 @@
 
 [1105 Spiral Matrix](https://github.com/srdczk/PAT/blob/master/A1105.cc)
 
+[1106 Lowest Price in Supply Chain](https://github.com/srdczk/PAT/blob/master/A1106.cc)
+
 [1108 Finding Average](https://github.com/srdczk/PAT/blob/master/A1108.cc)
 
 [1111 Online Map](https://github.com/srdczk/PAT/blob/master/A1111.cc)
