@@ -42,6 +42,8 @@
 
 [1112 Stucked Keyboard](https://github.com/srdczk/PAT/blob/master/A1112.cc)
 
+[1114 Family Property](https://github.com/srdczk/PAT/blob/master/A1114.cc)
+
 [1117 Eddington Number](https://github.com/srdczk/PAT/blob/master/A1117.cc)
 
 [1118 Birds in Forest](https://github.com/srdczk/PAT/blob/master/A1118.cc)
