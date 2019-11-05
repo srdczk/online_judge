@@ -28,6 +28,8 @@
 
 [1072 Gas Station](https://github.com/srdczk/PAT/blob/master/A1072.cc)
 
+[1073 Scientific Notation](https://github.com/srdczk/PAT/blob/master/A1073.cc)
+
 [1078 Hashing](https://github.com/srdczk/PAT/blob/master/A1078.cc)
 
 [1081 Rational Sum](https://github.com/srdczk/PAT/blob/master/A1081.cc)
