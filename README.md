@@ -1,5 +1,7 @@
 ## PAT甲级
 
+[1016 Phone Bills](https://github.com/srdczk/PAT/blob/master/A1016.cc)
+
 [1018 Public Bike Management](https://github.com/srdczk/PAT/blob/master/A1018.cc)
 
 [1021 Deepest Root](https://github.com/srdczk/PAT/blob/master/A1021.cc)
@@ -25,6 +27,8 @@
 [1069 The Black Hole of Numbers](https://github.com/srdczk/PAT/blob/master/A1069.cc)
 
 [1072 Gas Station](https://github.com/srdczk/PAT/blob/master/A1072.cc)
+
+[1078 Hashing](https://github.com/srdczk/PAT/blob/master/A1078.cc)
 
 [1081 Rational Sum](https://github.com/srdczk/PAT/blob/master/A1081.cc)
 
