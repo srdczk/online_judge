@@ -52,6 +52,8 @@
 
 [1108 Finding Average](https://github.com/srdczk/PAT/blob/master/A1108.cc)
 
+[1109 Group Photo](https://github.com/srdczk/PAT/blob/master/A1109.cc)
+
 [1111 Online Map](https://github.com/srdczk/PAT/blob/master/A1111.cc)
 
 [1112 Stucked Keyboard](https://github.com/srdczk/PAT/blob/master/A1112.cc)
@@ -61,6 +63,8 @@
 [1117 Eddington Number](https://github.com/srdczk/PAT/blob/master/A1117.cc)
 
 [1118 Birds in Forest](https://github.com/srdczk/PAT/blob/master/A1118.cc)
+
+[1122 Hamiltonian Cycle](https://github.com/srdczk/PAT/blob/master/A1122.cc)
 
 [1124 Raffle for Weibo Followers](https://github.com/srdczk/PAT/blob/master/A1124.cc)
 
@@ -72,7 +76,13 @@
 
 [1136 A Delayed Palindrome](https://github.com/srdczk/PAT/blob/master/A1136.cc)
 
+[1137 Final Grading](https://github.com/srdczk/PAT/blob/master/A1137.cc)
+
+[1141 PAT Ranking of Institutions](https://github.com/srdczk/PAT/blob/master/A1141.cc)
+
 [1144 The Missing Number](https://github.com/srdczk/PAT/blob/master/A1144.cc)
+
+[1145 Hashing - Average Search Time](https://github.com/srdczk/PAT/blob/master/A1145.cc)
 
 [1148 Werewolf - Simple Version](https://github.com/srdczk/PAT/blob/master/A1148.cc)
 
