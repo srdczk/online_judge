@@ -14,6 +14,8 @@
 
 [1032 Sharing](https://github.com/srdczk/PAT/blob/master/A1032.cc)
 
+[1034 Head of a Gang](https://github.com/srdczk/PAT/blob/master/A1034.cc)
+
 [1035 Password](https://github.com/srdczk/PAT/blob/master/A1035.cc)
 
 [1039 Course List for Student](https://github.com/srdczk/PAT/blob/master/A1039.cc)
@@ -23,6 +25,8 @@
 [1055 The World's Richest](https://github.com/srdczk/PAT/blob/master/A1055.cc)
 
 [1059 Prime Factors](https://github.com/srdczk/PAT/blob/master/A1059.cc)
+
+[1060 Are They Equal](https://github.com/srdczk/PAT/blob/master/A1060.cc)
 
 [1061 Dating](https://github.com/srdczk/PAT/blob/master/A1061.cc)
 
@@ -35,6 +39,8 @@
 [1073 Scientific Notation](https://github.com/srdczk/PAT/blob/master/A1073.cc)
 
 [1078 Hashing](https://github.com/srdczk/PAT/blob/master/A1078.cc)
+
+[1080 Graduate Admission](https://github.com/srdczk/PAT/blob/master/A1080.cc)
 
 [1081 Rational Sum](https://github.com/srdczk/PAT/blob/master/A1081.cc)
 
@@ -93,5 +99,7 @@
 [1150 Travelling Salesman Problem](https://github.com/srdczk/PAT/blob/master/A1150.cc)
 
 [1152 Google Recruitment](https://github.com/srdczk/PAT/blob/master/A1152.cc)
+
+[1153 Decode Registration Card of PAT](https://github.com/srdczk/PAT/blob/master/A1153.cc)
 
 [1154 Vertex Coloring](https://github.com/srdczk/PAT/blob/master/A1154.cc)
