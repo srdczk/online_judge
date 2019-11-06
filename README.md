@@ -12,11 +12,15 @@
 
 [1028 List Sorting](https://github.com/srdczk/PAT/blob/master/A1028.cc)
 
+[1032 Sharing](https://github.com/srdczk/PAT/blob/master/A1032.cc)
+
 [1035 Password](https://github.com/srdczk/PAT/blob/master/A1035.cc)
 
 [1039 Course List for Student](https://github.com/srdczk/PAT/blob/master/A1039.cc)
 
 [1047 Student List for Course](https://github.com/srdczk/PAT/blob/master/A1047.cc)
+
+[1055 The World's Richest](https://github.com/srdczk/PAT/blob/master/A1055.cc)
 
 [1059 Prime Factors](https://github.com/srdczk/PAT/blob/master/A1059.cc)
 
