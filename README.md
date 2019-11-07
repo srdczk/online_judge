@@ -40,17 +40,23 @@
 
 [1073 Scientific Notation](https://github.com/srdczk/PAT/blob/master/A1073.cc)
 
+[1075 PAT Judge](https://github.com/srdczk/PAT/blob/master/A1075.cc)
+
 [1078 Hashing](https://github.com/srdczk/PAT/blob/master/A1078.cc)
 
 [1080 Graduate Admission](https://github.com/srdczk/PAT/blob/master/A1080.cc)
 
 [1081 Rational Sum](https://github.com/srdczk/PAT/blob/master/A1081.cc)
 
+[1082 Read Number in Chinese](https://github.com/srdczk/PAT/blob/master/A1082.cc)
+
 [1087 All Roads Lead to Rome](https://github.com/srdczk/PAT/blob/master/A1087.cc)
 
 [1088 Rational Arithmetic](https://github.com/srdczk/PAT/blob/master/A1088.cc)
 
 [1090 Highest Price in Supply Chain](https://github.com/srdczk/PAT/blob/master/A1090.cc)
+
+[1095 Cars on Campus](https://github.com/srdczk/PAT/blob/master/A1095.cc)
 
 [1096 Consecutive Factors](https://github.com/srdczk/PAT/blob/master/A1096.cc)
 
