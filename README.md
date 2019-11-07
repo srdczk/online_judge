@@ -12,6 +12,8 @@
 
 [1028 List Sorting](https://github.com/srdczk/PAT/blob/master/A1028.cc)
 
+[1029 Median](https://github.com/srdczk/PAT/blob/master/A1029.cc)
+
 [1032 Sharing](https://github.com/srdczk/PAT/blob/master/A1032.cc)
 
 [1034 Head of a Gang](https://github.com/srdczk/PAT/blob/master/A1034.cc)
