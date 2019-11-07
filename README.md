@@ -32,6 +32,8 @@
 
 [1062 Talent and Virtue](https://github.com/srdczk/PAT/blob/master/A1062.cc)
 
+[1067 Sort with Swap(0, i)](https://github.com/srdczk/PAT/blob/master/A1067.cc)
+
 [1069 The Black Hole of Numbers](https://github.com/srdczk/PAT/blob/master/A1069.cc)
 
 [1072 Gas Station](https://github.com/srdczk/PAT/blob/master/A1072.cc)
