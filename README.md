@@ -16,6 +16,8 @@
 
 [1032 Sharing](https://github.com/srdczk/PAT/blob/master/A1032.cc)
 
+[1033 To Fill or Not to Fill](https://github.com/srdczk/PAT/blob/master/A1033.cc)
+
 [1034 Head of a Gang](https://github.com/srdczk/PAT/blob/master/A1034.cc)
 
 [1035 Password](https://github.com/srdczk/PAT/blob/master/A1035.cc)
@@ -97,6 +99,8 @@
 [1136 A Delayed Palindrome](https://github.com/srdczk/PAT/blob/master/A1136.cc)
 
 [1137 Final Grading](https://github.com/srdczk/PAT/blob/master/A1137.cc)
+
+[1139 First Contact](https://github.com/srdczk/PAT/blob/master/A1139.cc)
 
 [1141 PAT Ranking of Institutions](https://github.com/srdczk/PAT/blob/master/A1141.cc)
 
