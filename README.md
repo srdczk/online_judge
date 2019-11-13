@@ -1,5 +1,7 @@
 ## PAT甲级
 
+[1001 A+B Format](https://github.com/srdczk/PAT/blob/master/A1001.cc)
+
 [1016 Phone Bills](https://github.com/srdczk/PAT/blob/master/A1016.cc)
 
 [1018 Public Bike Management](https://github.com/srdczk/PAT/blob/master/A1018.cc)
