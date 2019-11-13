@@ -2,6 +2,12 @@
 
 [1001 A+B Format](https://github.com/srdczk/PAT/blob/master/A1001.cc)
 
+[1002 A+B for Polynomials](https://github.com/srdczk/PAT/blob/master/A1002.cc)
+
+[1003 Emergency](https://github.com/srdczk/PAT/blob/master/A1003.cc)
+
+[1004 Counting Leaves](https://github.com/srdczk/PAT/blob/master/A1004.cc)
+
 [1016 Phone Bills](https://github.com/srdczk/PAT/blob/master/A1016.cc)
 
 [1018 Public Bike Management](https://github.com/srdczk/PAT/blob/master/A1018.cc)
