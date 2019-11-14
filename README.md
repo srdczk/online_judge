@@ -8,6 +8,16 @@
 
 [1004 Counting Leaves](https://github.com/srdczk/PAT/blob/master/A1004.cc)
 
+[1005 Spell It Right](https://github.com/srdczk/PAT/blob/master/A1005.cc)
+
+[1006 Sign In and Sign Out](https://github.com/srdczk/PAT/blob/master/A1006.cc)
+
+[1007 Maximum Subsequence Sum](https://github.com/srdczk/PAT/blob/master/A1007.cc)
+
+[1008 Elevator](https://github.com/srdczk/PAT/blob/master/A1008.cc)
+
+[1009 Product of Polynomials](https://github.com/srdczk/PAT/blob/master/A1009.cc)
+
 [1016 Phone Bills](https://github.com/srdczk/PAT/blob/master/A1016.cc)
 
 [1018 Public Bike Management](https://github.com/srdczk/PAT/blob/master/A1018.cc)
