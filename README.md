@@ -143,3 +143,11 @@
 [1158 Telefraud Detection](https://github.com/srdczk/PAT/blob/master/A1158.cc)
 
 [1159 Structure of a Binary Tree](https://github.com/srdczk/PAT/blob/master/A1159.cc)
+
+[1160 Forever](https://github.com/srdczk/PAT/blob/master/A1160.cc)
+
+[1161 Merging Linked Lists](https://github.com/srdczk/PAT/blob/master/A1161.cc)
+
+[1162 Postfix Expression](https://github.com/srdczk/PAT/blob/master/A1162.cc)
+
+[1163 Dijkstra Sequence](https://github.com/srdczk/PAT/blob/master/A1163.cc)
