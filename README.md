@@ -135,3 +135,11 @@
 [1153 Decode Registration Card of PAT](https://github.com/srdczk/PAT/blob/master/A1153.cc)
 
 [1154 Vertex Coloring](https://github.com/srdczk/PAT/blob/master/A1154.cc)
+
+[1156 Sexy Primes](https://github.com/srdczk/PAT/blob/master/A1156.cc)
+
+[1157 Anniversary](https://github.com/srdczk/PAT/blob/master/A1157.cc)
+
+[1158 Telefraud Detection](https://github.com/srdczk/PAT/blob/master/A1158.cc)
+
+[1159 Structure of a Binary Tree](https://github.com/srdczk/PAT/blob/master/A1159.cc)
