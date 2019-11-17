@@ -18,6 +18,10 @@
 
 [1009 Product of Polynomials](https://github.com/srdczk/PAT/blob/master/A1009.cc)
 
+[1010 Radix](https://github.com/srdczk/PAT/blob/master/A1010.cc)
+
+[1011 World Cup Betting](https://github.com/srdczk/PAT/blob/master/A1011.cc)
+
 [1016 Phone Bills](https://github.com/srdczk/PAT/blob/master/A1016.cc)
 
 [1018 Public Bike Management](https://github.com/srdczk/PAT/blob/master/A1018.cc)
@@ -42,6 +46,8 @@
 
 [1039 Course List for Student](https://github.com/srdczk/PAT/blob/master/A1039.cc)
 
+[1040 Longest Symmetric String](https://github.com/srdczk/PAT/blob/master/A1040.cc)
+
 [1047 Student List for Course](https://github.com/srdczk/PAT/blob/master/A1047.cc)
 
 [1055 The World's Richest](https://github.com/srdczk/PAT/blob/master/A1055.cc)
@@ -53,6 +59,8 @@
 [1061 Dating](https://github.com/srdczk/PAT/blob/master/A1061.cc)
 
 [1062 Talent and Virtue](https://github.com/srdczk/PAT/blob/master/A1062.cc)
+
+[1066 Root of AVL Tree](https://github.com/srdczk/PAT/blob/master/A1066.cc)
 
 [1067 Sort with Swap(0, i)](https://github.com/srdczk/PAT/blob/master/A1067.cc)
 
@@ -76,15 +84,21 @@
 
 [1088 Rational Arithmetic](https://github.com/srdczk/PAT/blob/master/A1088.cc)
 
+[1089 Insert or Merge](https://github.com/srdczk/PAT/blob/master/A1088.cc)
+
 [1090 Highest Price in Supply Chain](https://github.com/srdczk/PAT/blob/master/A1090.cc)
 
 [1095 Cars on Campus](https://github.com/srdczk/PAT/blob/master/A1095.cc)
 
 [1096 Consecutive Factors](https://github.com/srdczk/PAT/blob/master/A1096.cc)
 
+[1098 Insertion or Heap Sort](https://github.com/srdczk/PAT/blob/master/A1098.cc)
+
 [1100 Mars Numbers](https://github.com/srdczk/PAT/blob/master/A1100.cc)
 
 [1101 Quick Sort](https://github.com/srdczk/PAT/blob/master/A1101.cc)
+
+[1104 Sum of Number Segments](https://github.com/srdczk/PAT/blob/master/A1104.cc)
 
 [1105 Spiral Matrix](https://github.com/srdczk/PAT/blob/master/A1105.cc)
 
@@ -106,6 +120,8 @@
 
 [1122 Hamiltonian Cycle](https://github.com/srdczk/PAT/blob/master/A1122.cc)
 
+[1123 Is It a Complete AVL Tree](https://github.com/srdczk/PAT/blob/master/A1123.cc)
+
 [1124 Raffle for Weibo Followers](https://github.com/srdczk/PAT/blob/master/A1124.cc)
 
 [1126 Eulerian Path](https://github.com/srdczk/PAT/blob/master/A1126.cc)
@@ -118,6 +134,8 @@
 
 [1137 Final Grading](https://github.com/srdczk/PAT/blob/master/A1137.cc)
 
+[1138 Postorder Traversal](https://github.com/srdczk/PAT/blob/master/A1138.cc)
+
 [1139 First Contact](https://github.com/srdczk/PAT/blob/master/A1139.cc)
 
 [1141 PAT Ranking of Institutions](https://github.com/srdczk/PAT/blob/master/A1141.cc)
@@ -125,6 +143,8 @@
 [1144 The Missing Number](https://github.com/srdczk/PAT/blob/master/A1144.cc)
 
 [1145 Hashing - Average Search Time](https://github.com/srdczk/PAT/blob/master/A1145.cc)
+
+[1147 Heaps](https://github.com/srdczk/PAT/blob/master/A1147.cc)
 
 [1148 Werewolf - Simple Version](https://github.com/srdczk/PAT/blob/master/A1148.cc)
 
