@@ -50,6 +50,10 @@
 
 [1047 Student List for Course](https://github.com/srdczk/PAT/blob/master/A1047.cc)
 
+[1048 Find Coins](https://github.com/srdczk/PAT/blob/master/A1048.cc)
+
+[1049 Counting Ones](https://github.com/srdczk/PAT/blob/master/A1049.cc)
+
 [1055 The World's Richest](https://github.com/srdczk/PAT/blob/master/A1055.cc)
 
 [1059 Prime Factors](https://github.com/srdczk/PAT/blob/master/A1059.cc)
