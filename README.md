@@ -118,6 +118,8 @@
 
 [1118 Birds in Forest](https://github.com/srdczk/PAT/blob/master/A1118.cc)
 
+[1119 Pre- and Post-order Traversals](https://github.com/srdczk/PAT/blob/master/A1119.cc)
+
 [1122 Hamiltonian Cycle](https://github.com/srdczk/PAT/blob/master/A1122.cc)
 
 [1123 Is It a Complete AVL Tree](https://github.com/srdczk/PAT/blob/master/A1123.cc)
