@@ -64,6 +64,8 @@
 
 [1062 Talent and Virtue](https://github.com/srdczk/PAT/blob/master/A1062.cc)
 
+[1065 A+B and C(64bit)](https://github.com/srdczk/PAT/blob/master/A1065.cc)
+
 [1066 Root of AVL Tree](https://github.com/srdczk/PAT/blob/master/A1066.cc)
 
 [1067 Sort with Swap(0, i)](https://github.com/srdczk/PAT/blob/master/A1067.cc)
@@ -161,6 +163,8 @@
 [1153 Decode Registration Card of PAT](https://github.com/srdczk/PAT/blob/master/A1153.cc)
 
 [1154 Vertex Coloring](https://github.com/srdczk/PAT/blob/master/A1154.cc)
+
+[1155 Heap Paths](https://github.com/srdczk/PAT/blob/master/A1155.cc)
 
 [1156 Sexy Primes](https://github.com/srdczk/PAT/blob/master/A1156.cc)
 
