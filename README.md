@@ -62,13 +62,35 @@
 
 [1043 Is It a Binary Search Tree](https://github.com/srdczk/PAT/blob/master/A1043.cc)
 
+[1044 Shopping in Mars](https://github.com/srdczk/PAT/blob/master/A1044.cc)
+
+[1045 Favorite Color Stripe](https://github.com/srdczk/PAT/blob/master/A1045.cc)
+
+[1046 Shortest Distance](https://github.com/srdczk/PAT/blob/master/A1046.cc)
+
 [1047 Student List for Course](https://github.com/srdczk/PAT/blob/master/A1047.cc)
 
 [1048 Find Coins](https://github.com/srdczk/PAT/blob/master/A1048.cc)
 
 [1049 Counting Ones](https://github.com/srdczk/PAT/blob/master/A1049.cc)
 
+[1050 String Subtraction](https://github.com/srdczk/PAT/blob/master/A1050.cc)
+
+[1051 Pop Sequence](https://github.com/srdczk/PAT/blob/master/A1051.cc)
+
+[1052 Linked List Sorting](https://github.com/srdczk/PAT/blob/master/A1052.cc)
+
+[1053 Path of Equal Weight](https://github.com/srdczk/PAT/blob/master/A1053.cc)
+
+[1054 The Dominant Color](https://github.com/srdczk/PAT/blob/master/A1054.cc)
+
 [1055 The World's Richest](https://github.com/srdczk/PAT/blob/master/A1055.cc)
+
+[1056 Mice and Rice](https://github.com/srdczk/PAT/blob/master/A1056.cc)
+
+[1057 Stack](https://github.com/srdczk/PAT/blob/master/A1057.cc)
+
+[1058 A+B in Hogwarts](https://github.com/srdczk/PAT/blob/master/A1058.cc)
 
 [1059 Prime Factors](https://github.com/srdczk/PAT/blob/master/A1059.cc)
 
