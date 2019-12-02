@@ -36,6 +36,10 @@
 
 [1029 Median](https://github.com/srdczk/PAT/blob/master/A1029.cc)
 
+[1030 Travel Plan](https://github.com/srdczk/PAT/blob/master/A1030.cc)
+
+[1031 Hello World for U](https://github.com/srdczk/PAT/blob/master/A1031.cc)
+
 [1032 Sharing](https://github.com/srdczk/PAT/blob/master/A1032.cc)
 
 [1033 To Fill or Not to Fill](https://github.com/srdczk/PAT/blob/master/A1033.cc)
@@ -44,9 +48,19 @@
 
 [1035 Password](https://github.com/srdczk/PAT/blob/master/A1035.cc)
 
+[1036 Boys vs Girls](https://github.com/srdczk/PAT/blob/master/A1036.cc)
+
+[1037 Magic Coupon](https://github.com/srdczk/PAT/blob/master/A1037.cc)
+
+[1038 Recover the Smallest Number](https://github.com/srdczk/PAT/blob/master/A1038.cc)
+
 [1039 Course List for Student](https://github.com/srdczk/PAT/blob/master/A1039.cc)
 
 [1040 Longest Symmetric String](https://github.com/srdczk/PAT/blob/master/A1040.cc)
+
+[1041 Be Unique](https://github.com/srdczk/PAT/blob/master/A1041.cc)
+
+[1043 Is It a Binary Search Tree](https://github.com/srdczk/PAT/blob/master/A1043.cc)
 
 [1047 Student List for Course](https://github.com/srdczk/PAT/blob/master/A1047.cc)
 
