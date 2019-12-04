@@ -26,11 +26,21 @@
 
 [1018 Public Bike Management](https://github.com/srdczk/PAT/blob/master/A1018.cc)
 
+[1019 General Palindromic Number](https://github.com/srdczk/PAT/blob/master/A1019.cc)
+
+[1020 Tree Traversals](https://github.com/srdczk/PAT/blob/master/A1020.cc)
+
 [1021 Deepest Root](https://github.com/srdczk/PAT/blob/master/A1021.cc)
 
 [1022 Digital Library](https://github.com/srdczk/PAT/blob/master/A1022.cc)
 
+[1023 Have Fun with Numbers](https://github.com/srdczk/PAT/blob/master/A1023.cc)
+
+[1024 Palindromic Number](https://github.com/srdczk/PAT/blob/master/A1024.cc)
+
 [1025 PAT Ranking](https://github.com/srdczk/PAT/blob/master/A1025.cc)
+
+[1027 Color in Mars](https://github.com/srdczk/PAT/blob/master/A1027.cc)
 
 [1028 List Sorting](https://github.com/srdczk/PAT/blob/master/A1028.cc)
 
@@ -59,6 +69,8 @@
 [1040 Longest Symmetric String](https://github.com/srdczk/PAT/blob/master/A1040.cc)
 
 [1041 Be Unique](https://github.com/srdczk/PAT/blob/master/A1041.cc)
+
+[1042 Shuffling Machine](https://github.com/srdczk/PAT/blob/master/A1042.cc)
 
 [1043 Is It a Binary Search Tree](https://github.com/srdczk/PAT/blob/master/A1043.cc)
 
@@ -99,6 +111,10 @@
 [1061 Dating](https://github.com/srdczk/PAT/blob/master/A1061.cc)
 
 [1062 Talent and Virtue](https://github.com/srdczk/PAT/blob/master/A1062.cc)
+
+[1063 Set Similarity](https://github.com/srdczk/PAT/blob/master/A1063.cc)
+
+[1064 Complete Binary Search Tree](https://github.com/srdczk/PAT/blob/master/A1064.cc)
 
 [1065 A+B and C(64bit)](https://github.com/srdczk/PAT/blob/master/A1065.cc)
 
