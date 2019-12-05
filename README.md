@@ -122,15 +122,29 @@
 
 [1067 Sort with Swap(0, i)](https://github.com/srdczk/PAT/blob/master/A1067.cc)
 
+[1068 Find More Coins](https://github.com/srdczk/PAT/blob/master/A1068.cc)
+
 [1069 The Black Hole of Numbers](https://github.com/srdczk/PAT/blob/master/A1069.cc)
+
+[1070 Mooncake](https://github.com/srdczk/PAT/blob/master/A1070.cc)
+
+[1071 Speech Patterns](https://github.com/srdczk/PAT/blob/master/A1071.cc)
 
 [1072 Gas Station](https://github.com/srdczk/PAT/blob/master/A1072.cc)
 
 [1073 Scientific Notation](https://github.com/srdczk/PAT/blob/master/A1073.cc)
 
+[1074 Reversing Linked List](https://github.com/srdczk/PAT/blob/master/A1073.cc)
+
 [1075 PAT Judge](https://github.com/srdczk/PAT/blob/master/A1075.cc)
 
+[1076 Forwards on Weibo](https://github.com/srdczk/PAT/blob/master/A1076.cc)
+
+[1077 Kuchiguse](https://github.com/srdczk/PAT/blob/master/A1075.cc)
+
 [1078 Hashing](https://github.com/srdczk/PAT/blob/master/A1078.cc)
+
+[1079 Total Sales of Supply Chain](https://github.com/srdczk/PAT/blob/master/A1079.cc)
 
 [1080 Graduate Admission](https://github.com/srdczk/PAT/blob/master/A1080.cc)
 
@@ -155,6 +169,8 @@
 [1100 Mars Numbers](https://github.com/srdczk/PAT/blob/master/A1100.cc)
 
 [1101 Quick Sort](https://github.com/srdczk/PAT/blob/master/A1101.cc)
+
+[1103 Integer Factorization](https://github.com/srdczk/PAT/blob/master/A1103.cc)
 
 [1104 Sum of Number Segments](https://github.com/srdczk/PAT/blob/master/A1104.cc)
 
