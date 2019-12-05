@@ -1,41 +1,35 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
 const int maxV = 510;
-
 struct Node {
     int v, dis;
-    Node(int _v, int d): v(_v), dis(d) {}
 };
-
+struct cmp {
+    bool operator()(const Node &a, const Node &b) {
+        return a.dis > b.dis;
+    }
+};
+priority_queue<Node, vector<Node>, cmp> q;
+vector<int> pre[maxV], w(maxV), d(maxV, INT_MAX);
 vector<Node> adj[maxV];
-vector<int> pre[maxV], tmp, path;
-int d[maxV], w[maxV], C, n, s, m, remain = INT_MAX, need = INT_MAX;
-bool vis[maxV];
-
+vector<int> path, tmp;
+int remain = INT_MAX, need = INT_MAX;
+int C, n, s, m;
 void dij() {
-    fill(d, d + maxV, INT_MAX);
-    fill(vis, vis + maxV, 0);
     d[0] = 0;
-    for (int i = 0; i < n + 1; ++i) {
-        int MIN = INT_MAX, u = -1;
-        for (int j = 0; j < n + 1; ++j) {
-            if (!vis[j] && d[j] < MIN) {
-                MIN = d[j];
-                u = j;
-            }
-        }
-        if (u == -1) break;
-        if (u == s) break;
-        vis[u] = 1;
-        for (auto &c : adj[u]) {
-            if (!vis[c.v] && d[c.v] > d[u] + c.dis) {
-                d[c.v] = d[u] + c.dis;
+    q.push(Node{0, 0});
+    while (!q.empty()) {
+        Node node = q.top();
+        q.pop();
+        for (auto &c : adj[node.v]) {
+            if (d[c.v] > node.dis + c.dis) {
+                d[c.v] = node.dis + c.dis;
                 pre[c.v].clear();
-                pre[c.v].push_back(u);
-            } else if (!vis[c.v] && d[c.v] == d[u] + c.dis) {
-                pre[c.v].push_back(u);
+                pre[c.v].push_back(node.v);
+                q.push(Node{c.v, d[c.v]});
+            } else if (d[c.v] == node.dis + c.dis) {
+                pre[c.v].push_back(node.v);
             }
         }
     }
@@ -75,20 +69,21 @@ void dfs(int v) {
 
 int main() {
     scanf("%d%d%d%d", &C, &n, &s, &m);
-    for (int i = 1; i < n + 1; ++i) scanf("%d", w + i);
+    for (int i = 1; i < n + 1; ++i) scanf("%d", &w[i]);
     while (m--) {
-        int x, y, z;
-        scanf("%d%d%d", &x, &y, &z);
-        adj[x].push_back(Node(y, z));
-        adj[y].push_back(Node(x, z));
+        int a, b, c;
+        scanf("%d%d%d", &a, &b, &c);
+        adj[a].push_back(Node{b, c});
+        adj[b].push_back(Node{a, c});
     }
     dij();
     dfs(s);
-    printf("%d ", need);
+    printf("%d ", need > 0 ? need : 0);
     for (int i = path.size() - 1; i > -1; --i) {
         if (i != path.size() - 1) printf("->");
         printf("%d", path[i]);
     }
-    printf(" %d\n", remain);
+    printf(" %d", remain > 0 ? remain : 0);
+    printf("\n");
     return 0;
 }

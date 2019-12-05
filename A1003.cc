@@ -2,43 +2,49 @@
 
 using namespace std;
 const int maxV = 510;
-int n, m, s, e;
-int d[maxV], w[maxV], hs[maxV], num[maxV];
-bool vis[maxV];
 struct Node {
     int v, dis;
 };
+// 最小堆
+struct cmp {
+    bool operator()(const Node &a, const Node &b) {
+        return a.dis > b.dis;
+    }
+};
+
+priority_queue<Node, vector<Node>, cmp> q;
+
+int n, m, s, e;
+
+int d[maxV], w[maxV], hs[maxV], num[maxV];
 vector<Node> adj[maxV];
+
 void dij() {
-    fill(d, d + maxV, INT_MAX);
-    fill(vis, vis + maxV, 0);
-    fill(hs, hs + maxV, 0);
+    q.push(Node{s, 0});
     fill(num, num + maxV, 0);
-    d[s] = 0;
-    num[s] = 1;
+    fill(d, d + maxV, INT_MAX);
+    fill(hs, hs + maxV, 0);
     hs[s] = w[s];
-    for (int i = 0; i < n; ++i) {
-        int MIN = INT_MAX, u = -1;
-        for (int j = 0; j < n; ++j) {
-            if (!vis[j] && d[j] < MIN) {
-                MIN = d[j];
-                u = j;
-            }
-        }
-        if (u == -1 || u == e) break;
-        vis[u] = 1;
-        for (auto &c : adj[u]) {
-            if (!vis[c.v] && d[c.v] > d[u] + c.dis) {
-                num[c.v] = num[u];
-                hs[c.v] = hs[u] + w[c.v];
-                d[c.v] = d[u] + c.dis;
-            } else if (!vis[c.v] && d[c.v] == d[u] + c.dis) {
-                num[c.v] += num[u];
-                hs[c.v] = max(hs[c.v], hs[u] + w[c.v]);
+    num[s] = 1;
+    d[s] = 0;
+    while (!q.empty()) {
+        Node node = q.top();
+        if (node.v == e) return;
+        q.pop();
+        for (auto &c : adj[node.v]) {
+            if (d[c.v] > node.dis + c.dis) {
+                num[c.v] = num[node.v];
+                hs[c.v] = w[c.v] + hs[node.v];
+                d[c.v] = node.dis + c.dis;
+                q.push(Node{c.v, d[c.v]});
+            } else if (d[c.v] == node.dis + c.dis) {
+                num[c.v] += num[node.v];
+                hs[c.v] = max(w[c.v] + hs[node.v], hs[c.v]);
             }
         }
     }
 }
+
 int main() {
     scanf("%d%d%d%d", &n, &m, &s, &e);
     for (int i = 0; i < n; ++i) scanf("%d", w + i);

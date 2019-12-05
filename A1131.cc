@@ -1,104 +1,75 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
-//用优先队列实现dijkstra,否则会超时
-
+const int maxV = 10010;
 struct Node {
     int x, y;
-    Node(int _x, int _y): x(_x), y(_y) {}
 };
+
 struct cmp {
-    bool operator()(const pair<int, int> &a, const pair<int, int> &b) {
-        return a.second > b.second;
+    bool operator()(const Node &a, const Node &b) {
+        return a.y > b.y;
     }
 };
+priority_queue<Node, vector<Node>, cmp> q;
+unordered_map<int, vector<Node>> m;
 
-priority_queue<pair<int, int>, vector<pair<int, int>>, cmp> q;
-
-const int maxV = 10010;
-
-unordered_set<int> s;
-
-unordered_map<int, vector<pair<int, int>>> m;
-
-vector<int> adj[maxV], path, tmp, tp, pth;
-
-int preP[maxV], preQ[maxV], dis[maxV];
-int d[maxV], n, res = INT_MAX;
-
-
-
-int dij(int b, int e) {
-    fill(d, d + maxV, INT_MAX);
-    d[b] = 0;
-    q.push(pair<int, int>(b, 0));
+Node pre[maxV];
+int level[maxV], d[maxV];
+vector<int> adj[maxV];
+int s, e;
+void dij() {
+    d[s] = 0;
+    level[s] = 0;
+    q.push(Node{s, 0});
     while (!q.empty()) {
-        pair<int, int> p = q.top();
+        Node node = q.top();
         q.pop();
-        if (p.first == e) break;
-        int u = p.first;
-        for (auto &c : m[u]) {
-            int x = c.first;
-            int y = c.second;
-            for (int j = 0; j < adj[x].size(); ++j) {
-                if (j == y) continue;
-                if (d[adj[x][j]] > d[u] + abs(j - y)) {
-                    d[adj[x][j]] = d[u] + abs(j - y);
-                    preP[adj[x][j]] = u;
-                    preQ[adj[x][j]] = x;
-                    dis[adj[x][j]] = dis[u] + 1;
-                    q.push(pair<int, int>(adj[x][j], d[adj[x][j]]));
-                } else if (d[adj[x][j]] == d[u] + abs(j - y)) {
-                    if (dis[adj[x][j]] > dis[u] + 1) {
-                        preP[adj[x][j]] = u;
-                        preQ[adj[x][j]] = x;
-                        dis[adj[x][j]] = dis[u] + 1;
+        for (auto &c : m[node.x]) {
+            // c.x, c.y
+            for (int i = 0; i < adj[c.x].size(); ++i) {
+                if (d[adj[c.x][i]] > node.y + abs(c.y - i)) {
+                    d[adj[c.x][i]] = node.y + abs(c.y - i);
+                    q.push(Node{adj[c.x][i], node.y + abs(c.y - i)});
+                    pre[adj[c.x][i]] = Node{c.x, node.x};
+                    level[adj[c.x][i]] = level[node.x] + 1;
+                } else if (d[adj[c.x][i]] == node.y + abs(c.y - i)) {
+                    if (level[adj[c.x][i]] > level[node.x] + 1) {
+                        pre[adj[c.x][i]] = Node{c.x, node.x};
+                        level[adj[c.x][i]] = level[node.x] + 1;
                     }
                 }
             }
         }
     }
 }
-
 int main() {
+    int n, k;
     scanf("%d", &n);
     for (int i = 0; i < n; ++i) {
-        int k;
         scanf("%d", &k);
         adj[i] = vector<int>(k);
         for (int j = 0; j < k; ++j) {
             scanf("%d", &adj[i][j]);
-            m[adj[i][j]].push_back(pair<int, int>(i, j));
-            s.insert(adj[i][j]);
+            m[adj[i][j]].push_back(Node{i, j});
         }
     }
-    int k;
     scanf("%d", &k);
     while (k--) {
-        q = priority_queue<pair<int, int>, vector<pair<int, int>>, cmp>();
-        fill(preP, preP + maxV, -1);
-        fill(preQ, preQ + maxV, -1);
-        fill(dis, dis + maxV, 0);
-        int b, e;
-        scanf("%d%d", &b, &e);
-        dij(b, e);
+        scanf("%d%d", &s, &e);
+        fill(d, d + maxV, INT_MAX);
+        fill(pre, pre + maxV, Node{-1, -1});
+        dij();
         printf("%d\n", d[e]);
-        stack<int> sa, sb;
-        int p = e;
-        while (preP[p] != -1) {
-            sa.push(p);
-            sb.push(preQ[p]);
-            p = preP[p];
+        vector<Node> ns;
+        Node node{-1, e};
+        while (!(node.x == -1 && node.y == -1)) {
+            ns.push_back(node);
+            node = pre[node.y];
         }
-        p = b;
-        while (!sa.empty()) {
-            printf("Take Line#%d from %04d to %04d.\n", sb.top() + 1, b, sa.top());
-            b = sa.top();
-            sa.pop();
-            sb.pop();
+        for (int i = ns.size() - 1; i > 0; --i) {
+            printf("Take Line#%d from %04d to %04d.\n", ns[i].x + 1, ns[i].y, ns[i - 1].y);
         }
-
     }
     return 0;
 }
