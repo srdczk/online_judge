@@ -1,10 +1,10 @@
-### ½£Ö¸offer
-[Å£¿ÍÍø ½£Ö¸offer](https://www.nowcoder.com/ta/coding-interviews?page=1)
+ï»¿### å‰‘æŒ‡offer
+[ç‰›å®¢ç½‘ - å‰‘æŒ‡offer](https://www.nowcoder.com/ta/coding-interviews?page=1)
 
-[1 Search in Two-dimensional Array]()
+[1 Search in Two-dimensional Array](https://github.com/srdczk/online_judge/blob/master/thrust_offer/A01.cc)
 
-[2 Replace Space]()
+[2 Replace Space](https://github.com/srdczk/online_judge/blob/master/thrust_offer/A02.cc)
 
-[3 Print LinkedList From Tail to Head]()
+[3 Print LinkedList From Tail to Head](https://github.com/srdczk/online_judge/blob/master/thrust_offer/A03.cc)
 
-[4 Rebuild Tree]()
+[4 Rebuild Tree](https://github.com/srdczk/online_judge/blob/master/thrust_offer/A04.cc)
