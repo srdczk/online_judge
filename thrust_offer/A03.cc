@@ -7,7 +7,6 @@ struct ListNode {
 	ListNode *next;
 	ListNode(int v): val(v), next(nullptr) {}
 };
-// 链表结构
 
 class Solution {
 public:
