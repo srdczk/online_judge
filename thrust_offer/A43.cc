@@ -14,9 +14,11 @@ private:
         uint64_t count = cnt(n);
         uint64_t x = pow(10, count - 1);
         uint64_t first = n / x;
-        uint64_t one = first == 1 ? n % x + 1 : x;
-        uint64_t other = first * x / 10 * (count - 1);
-        return one + other + process(n - first * x);
+        if (first == 1) {
+            return process(x - 1) + process(n % x) + n % x + 1;
+        } else {
+            return process(x - 1) * first + process(n % x) + x;
+        }
     }
     uint64_t cnt(uint64_t n) {
         int res = 0;
