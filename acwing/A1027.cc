@@ -2,83 +2,38 @@
 
 using namespace std;
 
-const int maxV = 20;
+const int N = 20;
 
-struct Node {
-    int x, y;
-    Node(): x(-1), y(-1) {}
-    Node(int x_, int y_): x(x_), y(y_) {}
-};
+int a[N][N];
 
-int a[maxV][maxV];
-Node ns[maxV][maxV];
+// f(i1, j1, i2, j2) -> represent, while(i1 + j1 == i2 + j2)
+int f[2 * N - 1][N][N];
 
 int main() {
     int n;
     scanf("%d", &n);
-    fill(*a, *a + maxV * maxV, 0);
-    int p = -1, q = -1, r = -1;
-    while (p || q || r) {
+    fill(*a, *a + N * N, 0);
+    int p, q, r;
+    while (true) {
         scanf("%d%d%d", &p, &q, &r);
-        if (!p || !q) break;
+        if (!p && !q && !r) break;
         a[p - 1][q - 1] = r;
     }
-    int dp[maxV][maxV];
-    fill(*dp, *dp + maxV * maxV, 0);
-    dp[0][0] = a[0][0];
-    for (int i = 1; i < n; ++i) {
-        ns[i][0] = Node(i - 1, 0);
-        ns[0][i] = Node(0, i - 1);
-        dp[i][0] = dp[i - 1][0] + a[i][0];
-        dp[0][i] = dp[0][i - 1] + a[0][i];
-    }
-    for (int i = 1; i < n; ++i) {
-        for (int j = 1; j < n; ++j) {
-            if (dp[i - 1][j] > dp[i][j - 1]) {
-                dp[i][j] = a[i][j] + dp[i - 1][j];
-                ns[i][j] = Node(i - 1, j);
-            } else {
-                dp[i][j] = a[i][j] + dp[i][j - 1];
-                ns[i][j] = Node(i, j - 1);
+    // i + j max (2 * n - 1)
+    for (int k = 0; k < 2 * n - 1; ++k) {
+        for (int i = 0; i < k + 1; ++i) {
+            for (int j = 0; j < k + 1; ++j) {
+                if (!k) f[k][i][j] = a[0][0];
+                else {
+                    int x = !i || j == k ? INT_MIN : f[k - 1][i - 1][j] + a[i][k - i] + (i == j ? 0 : a[j][k - j]);
+                    int y = !j || i == k ? INT_MIN : f[k - 1][i][j - 1] + a[i][k - i] + (i == j ? 0 : a[j][k - j]);
+                    int w = !i || !j ? INT_MIN : f[k - 1][i - 1][j - 1] + a[i][k - i] + (i == j ? 0 : a[j][k - j]);
+                    int z = i == k || j == k ? INT_MIN : f[k - 1][i][j] + a[i][k - i] + (i == j ? 0 : a[j][k - j]);
+                    f[k][i][j] = max(max(x, y), max(w, z));
+                }
             }
-
         }
     }
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n; ++j) {
-            cout << a[i][j] << " ";
-        }
-        cout << "\n";
-    }
-    auto res = dp[n - 1][n - 1];
-    cout << res << "\n";
-    a[n - 1][n - 1] = 0;
-    int x = ns[n - 1][n - 1].x, y = ns[n - 1][n - 1].y;
-    while (x != -1 && y != -1) {
-        a[x][y] = 0;
-        p = ns[x][y].x;
-        q = ns[x][y].y;
-        x = p;
-        y = q;
-    }
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n; ++j) {
-            cout << a[i][j] << " ";
-        }
-        cout << "\n";
-    }
-    dp[0][0] = a[0][0];
-    for (int i = 1; i < n; ++i) {
-        dp[i][0] = dp[i - 1][0] + a[i][0];
-        dp[0][i] = dp[0][i - 1] + a[0][i];
-    }
-    for (int i = 1; i < n; ++i) {
-        for (int j = 1; j < n; ++j) {
-            dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]) + a[i][j];
-
-        }
-    }
-    cout << dp[n - 1][n - 1] << "\n";
-    printf("%d\n", res + dp[n - 1][n - 1]);
+    printf("%d\n", f[2 * n - 2][n - 1][n - 1]);
     return 0;
 }
