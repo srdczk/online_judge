@@ -1,0 +1,3 @@
+# Write your MySQL query statement below
+
+select a.asi as student_id, a.asn as student_name, a.bsn as subject_name, if(b.c is null, 0, b.c) as attended_exams from (select a.student_id as asi, a.student_name as asn, b.subject_name as bsn from Students as a, Subjects as b) as a left join (select student_id as si, subject_name as sn, count(*) as c from Examinations group by student_id, subject_name) as b on a.asi = b.si and a.bsn = b.sn order by a.asi, a.bsn;
