@@ -8,28 +8,25 @@
  */
 class Solution {
 public:
-    ListNode *process(ListNode *pre, ListNode *node) {
+    ListNode *reSolve(ListNode *pre, ListNode *node) {
         if (!node) return pre;
-        auto next = node->next;
+        ListNode *next = node->next;
         node->next = pre;
-        return process(node, next);
-    }
-    ListNode *reSolve(ListNode *head) {
-        return process(nullptr, head);
+        return reSolve(node, next);
     }
     ListNode *itSolve(ListNode *head) {
         if (!head || !head->next) return head;
-        auto p = head->next;
+        ListNode *q = head->next;
         head->next = nullptr;
-        while (p) {
-            auto next = p->next;
-            p->next = head;
-            head = p;
-            p = next;
+        while (q) {
+            ListNode *next = q->next;
+            q->next = head;
+            head = q;
+            q = next;
         }
         return head;
     }
     ListNode* reverseList(ListNode* head) {
-        return reSolve(head);
+        return reSolve(nullptr, head);
     }
 };
